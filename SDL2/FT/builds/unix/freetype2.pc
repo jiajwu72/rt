@@ -1,0 +1,14 @@
+prefix=/Users/klin/SDL2/FT
+exec_prefix=/Users/klin/SDL2/FT
+libdir=/Users/klin/SDL2/FT/lib
+includedir=/Users/klin/SDL2/FT/include
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 19.0.13
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -lbz2
+Cflags: -I${includedir}/freetype2

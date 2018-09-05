@@ -1,0 +1,138 @@
+<!--
+
+/!\ Commentaires autorises seulement si il commence ala premiere ligne /!\
+
+angle (cone attribute) between 0 and 180
+radius (sphere and cylinder attribute) bigger than 0
+reflection (index) between 0 and 100
+refraction (index) between 0 and 7
+transparency (index) between 0 and 100
+
+TEXTURES : CHECKER, MOON, SUN, EARTH, GARDEN, NONE
+
+OBJECTS : SPHERE, CYLINDER, PLANE, CONE, ELLIPSE, PARABOLE
+
+COLOR : RED, GREEN, BLUE, CYAN, YELLOW, MAGENTA, PINK, PURPLE, BROWN, BLACK, WHITE, GREY
+
+-->
+
+<camera>
+	<position x = "0" y = "-200" z = "0" />
+	<angles x = "0" y = "1" z = "0" />
+</camera>
+
+<objects>
+	<sphere>
+		<attribute radius = "42" />
+		<color red = "198" green = "198" blue = "198" texture = "none" />
+		<index reflection = "0" refraction = "6" transparency = "22" />
+		<position x = "-107" y = "142" z = "-60" />
+	</sphere>
+	<sphere>
+		<attribute radius = "42" />
+		<color red = "198" green = "198" blue = "198" texture = "none" />
+		<index reflection = "0" refraction = "6" transparency = "22" />
+		<position x = "114" y = "142" z = "-60" />
+	</sphere>
+	<cylinder>
+		<angles x = "0" y = "0" z = "0" />
+		<attribute radius = "20" />
+		<color red = "135" green = "12" blue = "50" texture = "none" />
+		<index reflection = "20" refraction = "0" transparency = "0" />
+		<position x = "-106" y = "140" z = "0" />
+	</cylinder>
+	<plane>
+		<angles x = "0" y = "0" z = "0" h = "57" />
+		<color red = "40" green = "51" blue = "100" texture = "checker" />
+		<index reflection = "23" refraction = "0" transparency = "0" />
+	</plane>
+	<cone>
+		<angles x = "0" y = "90" z = "-32" />
+		<attribute angle = "10" />
+		<color red = "255" green = "0" blue = "150" texture = "sun" />
+		<index reflection = "0" refraction = "0" transparency = "0" />
+		<position x = "0" y = "327" z = "36" />
+	</cone>
+	<plane>
+		<angles x = "80" y = "0" z = "0" h = "1187" />
+		<color red = "67" green = "243" blue = "164" texture = "checker" />
+		<index reflection = "11" refraction = "0" transparency = "0" />
+	</plane>
+	<cylinder>
+		<angles x = "0" y = "0" z = "0" />
+		<attribute radius = "20" />
+		<color red = "135" green = "12" blue = "50" texture = "none" />
+		<index reflection = "20" refraction = "0" transparency = "0" />
+		<position x = "114" y = "140" z = "0" />
+	</cylinder>
+	<sphere>
+		<attribute radius = "42" />
+		<color red = "198" green = "198" blue = "198" texture = "none" />
+		<index reflection = "0" refraction = "6" transparency = "25" />
+		<position x = "-106" y = "642" z = "-60" />
+	</sphere>
+	<sphere>
+		<attribute radius = "42" />
+		<color red = "198" green = "198" blue = "198" texture = "none" />
+		<index reflection = "0" refraction = "6" transparency = "25" />
+		<position x = "114" y = "642" z = "-60" />
+	</sphere>
+	<cylinder>
+		<angles x = "0" y = "0" z = "0" />
+		<attribute radius = "20" />
+		<color red = "135" green = "12" blue = "50" texture = "none" />
+		<index reflection = "20" refraction = "0" transparency = "0" />
+		<position x = "-106" y = "640" z = "0" />
+	</cylinder>
+	<cylinder>
+		<angles x = "0" y = "0" z = "0" />
+		<attribute radius = "20" />
+		<color red = "135" green = "12" blue = "50" texture = "none" />
+		<index reflection = "20" refraction = "0" transparency = "0" />
+		<position x = "114" y = "640" z = "0" />
+	</cylinder>
+	<sphere>
+		<attribute radius = "42" />
+		<color red = "0" green = "50" blue = "170" texture = "earth" />
+		<index reflection = "3" refraction = "0" transparency = "0" />
+		<position x = "0" y = "338" z = "44" />
+	</sphere>
+	<sphere>
+		<attribute radius = "42" />
+		<color red = "198" green = "198" blue = "198" texture = "none" />
+		<index reflection = "0" refraction = "6" transparency = "22" />
+		<position x = "-107" y = "142" z = "100" />
+	</sphere>
+	<sphere>
+		<attribute radius = "42" />
+		<color red = "198" green = "198" blue = "198" texture = "none" />
+		<index reflection = "0" refraction = "6" transparency = "22" />
+		<position x = "114" y = "142" z = "100" />
+	</sphere>
+	<sphere>
+		<attribute radius = "42" />
+		<color red = "198" green = "198" blue = "198" texture = "none" />
+		<index reflection = "0" refraction = "6" transparency = "25" />
+		<position x = "114" y = "642" z = "180" />
+	</sphere>
+	<sphere>
+		<attribute radius = "42" />
+		<color red = "198" green = "198" blue = "198" texture = "none" />
+		<index reflection = "0" refraction = "6" transparency = "25" />
+		<position x = "-106" y = "642" z = "180" />
+	</sphere>
+	<sphere>
+		<attribute radius = "12" />
+		<color red = "198" green = "198" blue = "198" texture = "moon" />
+		<index reflection = "1" refraction = "0" transparency = "0" />
+		<position x = "-26" y = "297" z = "30" />
+	</sphere>
+</objects>
+
+<light>
+	<basic>
+		<color red = "0" green = "0" blue = "0" />
+		<direction x = "0" y = "0" z = "0" />
+		<position x = "150" y = "200" z = "50" />
+	</basic>
+</light>
