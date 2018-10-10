@@ -23,6 +23,7 @@ Light intensity: p, l
 Screenshot: c
 
 Save scene: ctrl + e
+
 /Users/jwu/rt/Screen Shot 2018-10-10 at 15.45.56.bmp
 /Users/jwu/rt/Screen Shot 2018-10-10 at 15.48.35.bmp
 /Users/jwu/rt/Screen Shot 2018-10-10 at 15.49.09.bmp
