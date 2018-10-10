@@ -34,6 +34,6 @@ Screenshot: c
 
 /Users/jwu/rt/Screen Shot 2018-10-10 at 15.50.35.bmp
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](Screen Shot 2018-10-10 at 15.45.56.bmp "Logo Title Text 1")
 
 [GitHub](http://github.com)
