@@ -34,6 +34,6 @@ Screenshot: c
 
 /Users/jwu/rt/Screen Shot 2018-10-10 at 15.50.35.bmp
 
-![GitHub Logo](Screen Shot 2018-10-10 at 15.45.56.bmp "Logo Title Text 2")
+![GitHub Logo](img01.bmp)
 
 [GitHub](http://github.com)
