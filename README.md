@@ -33,3 +33,6 @@ Screenshot: c
 /Users/jwu/rt/Screen Shot 2018-10-10 at 15.49.37.bmp
 
 /Users/jwu/rt/Screen Shot 2018-10-10 at 15.50.35.bmp
+
+http://github.com - automatic!
+[GitHub](http://github.com)
