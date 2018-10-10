@@ -24,16 +24,8 @@ Screenshot: c
 
 Save scene: ctrl + e
 
-![GitHub Logo](Screen Shot 2018-10-10 at 15.45.56.bmp)
-
-/Users/jwu/rt/Screen Shot 2018-10-10 at 15.48.35.bmp
-
-/Users/jwu/rt/Screen Shot 2018-10-10 at 15.49.09.bmp
-
-/Users/jwu/rt/Screen Shot 2018-10-10 at 15.49.37.bmp
-
-/Users/jwu/rt/Screen Shot 2018-10-10 at 15.50.35.bmp
-
 ![GitHub Logo](img01.bmp)
-
-[GitHub](http://github.com)
+![GitHub Logo](img02.bmp)
+![GitHub Logo](img03.bmp)
+![GitHub Logo](img04.bmp)
+![GitHub Logo](img05.bmp)
