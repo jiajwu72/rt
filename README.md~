@@ -2,9 +2,9 @@
 
 Man compilation et lancement de programme
 -----------------------------------------------
-# Avoir telecharger la sdl
+# telecharger la sdl
 make (qui execute le fichier Makefile)
-Usage: ./rt scene 
+./rt 
 Move position: w, a, s, d
 Up/Down: space, x
 Move distance: +, -
